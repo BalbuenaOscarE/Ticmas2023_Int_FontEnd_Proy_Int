@@ -1,0 +1,82 @@
+/* Elementos html */
+
+* {
+  color: greenyellow;
+  justify-content: left;
+  align-items: left;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+body{
+  background-color: rgba(0, 0, 0);
+  background-size: 100% 100%;
+}
+
+header {
+  background-size: 100% 100%;
+  background-color: #000000;
+}
+
+nav{
+  padding: 0px;
+  width: 100%;
+}
+
+aside{
+  max-width: fit-content;
+  background-color: gray;
+}
+
+section{
+  margin-left: 20px;
+  margin-right: 0px;
+  max-width: fit-content;
+}
+
+footer{
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/264/871/595/blurred-computer-programming-html-wallpaper-preview.jpg");
+  max-width: 100%;
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+  padding: 0px;
+}
+
+/* Elementos */
+  
+p{
+  width: auto;
+  height: auto;
+  max-width: fit-content;
+}
+
+h2{
+  max-width: 100%;
+  text-decoration: underline;
+}
+
+/* Clases, y subelementos */
+
+.index_header{
+  width: 100%;
+}
+
+/* Elementos por id */
+
+#volver_al_inicio{
+  position: relative;
+  margin: auto;
+  align-items: center;
+
+  width: max-content;
+  display: block;
+}
+
+#medios_titulo{
+  color: white;
+  text-decoration: underline;
+}

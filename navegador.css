@@ -1,0 +1,35 @@
+.menu ul{
+    list-style-type: none;
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+  
+    align-items: center;
+    width: max-content;
+    line-height: normal;
+    
+  }
+  
+  .menu ul li {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu ul li a {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #35353553;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  /*hover es el evento cuando pasamos por encima el mouse*/
+  .menu ul li a:hover {
+    background-color: grey;
+    cursor: pointer;
+  }
+  
+  .menu ul li a img{
+    padding: 0px;
+  }

@@ -1,0 +1,16 @@
+/* responsive */
+
+/* Dispositivos pequeños(celulares) */
+@media (max-width: 767px){
+
+   #index_header{
+    max-width: 100%;
+   }
+  
+}
+
+/* Tablets */
+
+@media only screen and (max-width: 767px){
+  
+}

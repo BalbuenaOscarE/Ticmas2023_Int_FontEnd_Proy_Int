@@ -1,0 +1,10 @@
+main aside img{
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  aside p{
+    color: white;
+    font-size: xx-small;
+    vertical-align: text-bottom;
+  }

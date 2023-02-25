@@ -1,0 +1,9 @@
+#titulaciones{
+    padding: 10px;
+    }
+    
+    #titulaciones:hover{
+      background-color: grey;
+      cursor: pointer;
+    }
+    

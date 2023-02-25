@@ -1,0 +1,35 @@
+.supermenu ul{
+    list-style-type: none;
+    list-style: none;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+  
+    align-items: left;
+    width: max-content;
+    line-height: normal;
+    
+  }
+  
+  .supermenu ul li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #35353553;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  .dis{
+    display: none; 
+  }
+  
+  .supermenu ul li:hover {
+    background-color: grey;
+  }
+  
+  .supermenu ul:hover > li{
+     display: inline-flex;
+  }
+  
+  .dis{
+  position: relative;
+  }
