@@ -6,12 +6,11 @@
     padding: 0px;
   
     align-items: left;
-    width: max-content;
-    line-height: normal;
     
   }
   
   .supermenu ul li {
+    width: 90%;
     padding: 8px;
     margin-bottom: 7px;
     background-color: #35353553;

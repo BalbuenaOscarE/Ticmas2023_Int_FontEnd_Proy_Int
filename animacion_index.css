@@ -1,62 +1,62 @@
 #index_titulo {
-    background: none;
     border-right: 4px solid white;
     content: "";
     white-space: nowrap;
-    width: 17ch;
+    width: 100%;
+    max-width: fit-content;
+    height: min-content;
   
-    animation: escribiendo_titulo 1.5s steps(17), parpadeo .25s infinite step-end alternate;
+    animation: escribiendo 1.5s steps(17), parpadeo .25s infinite step-end alternate;
   
     overflow: hidden ;
   }
   
   #index_presentacion {
-    background: none;
     border-right: 4px solid white;
     content: "";
     white-space: nowrap;
-    width: 86ch;
+    width: 100%;
+    max-width: fit-content;
+    height: min-content;
   
-    animation: escribiendo_presentacion 5.5s steps(86), parpadeo .25s infinite step-end alternate;
+    animation: escribiendo 1.5s steps(22), parpadeo .25s infinite step-end alternate;
   
     overflow: hidden ;
   }
   
   #index_informacion {
-    background: none;
     border-right: 4px solid white;
     content: "";
     white-space: nowrap;
-    width: 99ch;
+    width: 100%;
+    max-width: fit-content;
+    height: min-content;
   
-    animation: escribiendo_informacion 5.5s steps(99), parpadeo .25s infinite step-end alternate;
+    animation: escribiendo 3.25s steps(56), parpadeo .25s infinite step-end alternate;
+  
+    overflow: hidden ;
+  }
+
+  #index_inicio {
+    border-right: 4px solid white;
+    content: "";
+    white-space: nowrap;
+    width: 100%;
+    max-width: fit-content;
+    height: min-content;
+  
+    animation: escribiendo 1.75s steps(32), parpadeo .25s infinite step-end alternate;
   
     overflow: hidden ;
   }
 
 /* Keyframes */
 
-@keyframes escribiendo_titulo {
+@keyframes escribiendo {
   from{
-    width: 0ch;
-  } to {
-    width: 17;
-  }
-  }
-    
-@keyframes escribiendo_presentacion {
-  from{
-    width: 0ch;
-  } to {
-    width: 86;
-  }
-  }
-
-@keyframes escribiendo_informacion {
-  from{
-    width: 0ch;
-  } to {
-    width: 99;
+    width: 0%;
+  } to{
+    width: 100%;
   }
   }
     

@@ -1,11 +1,13 @@
 let titulo = document.getElementById("index_titulo");
 let presentacion = document.getElementById("index_presentacion");
 let informacion = document.getElementById("index_informacion");
+let inicio = document.getElementById("index_inicio");
 let menu = document.getElementById("menu");
 
 titulo.style.display = "none";
 presentacion.style.display = "none";
 informacion.style.display = "none";
+inicio.style.display = "none";
 menu.style.display = "none";
 
 /*
@@ -41,7 +43,7 @@ function visibilizarPagina() {
 switch (elementoActual) {
 
 case 0:
-titulo.style.display = "block";
+titulo.style.display = "inline-block";
 break;
 
 case 1:
@@ -57,9 +59,15 @@ presentacion.style.borderRight = "none";
 break;
 
 case 3:
-menu.style.display = "block";
+inicio.style.display = "block";
 informacion.style.animation = "none";
 informacion.style.borderRight = "none";
+break;
+
+case 4:
+menu.style.display = "block";
+inicio.style.animation = "none";
+inicio.style.borderRight = "none";
 break;
 
 default:

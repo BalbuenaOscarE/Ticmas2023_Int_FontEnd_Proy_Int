@@ -1,16 +1,28 @@
-/* responsive */
-
 /* Dispositivos pequeños(celulares) */
+
 @media (max-width: 767px){
-
-   #index_header{
-    max-width: 100%;
+   main{
+      display: block;
    }
-  
-}
 
-/* Tablets */
+   main aside img{
+      position: relative;
+      justify-content: center;
+      width: 90%;
+      height: fit-content;
+      padding: 10px;
+      display: flex;
+      margin: auto;
+    }
 
-@media only screen and (max-width: 767px){
+    main aside p {
+      position: relative;
+      margin: auto;
+    }
+
+    main section p {
+      width: 90%;
+      padding: 10px;
+    }
   
 }

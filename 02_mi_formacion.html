@@ -16,15 +16,19 @@
     >
 
     <link rel="stylesheet"
-    href="titulaciones.css"
-    >
-
-    <link rel="stylesheet"
     href="navegador.css"
     >
 
     <link rel="stylesheet"
     href="grid.css"
+    >
+
+    <link rel="stylesheet"
+    href="web_responsive.css"
+    >
+
+    <link rel="stylesheet"
+    href="titulaciones.css"
     >
     
     <link rel="icon" type="image/x-icon" href="icono CV.png">
@@ -34,18 +38,22 @@
 
 <body>
 
-    <header class="row" id="header">
+    <header class="lcol-12 row" id="header">
 
     <h1 id="titulo">
         &#60; Mi camino.../&#62;
     </h1>
 
     <p id="presentacion">
-        Hola!! Me llamo Oscar pero me gusta que me llamen Emanuel..Y mis amigos me dicen Ema!!.
+        Hola!! Me llamo Ema!!!
     </p>
 
     <p id="informacion">
-        Soy un estudiante de programación(Entre otras cosas)... y te invito a hechar un vistazo a mi vida!!
+        Soy Maestro Mayor de Obras, y estudiante de programación
+    </p>
+
+    <p id="inicio">
+        Y les presento mi hoja de vida :
     </p>
 
     </header>
@@ -56,11 +64,11 @@
         
         <ul>
 
-          <li id="mi_historia"><a href="01_mi_historia.html">Mi historia</a></li>
-
-          <li id="mi_formacion"><a href="02_mi_formacion.html">Mi formación</a></li>
-
-          <li id="mi_obra"><a href="03_mi_obra.html">Mi obra</a></li>
+            <li id="mi_historia"><a href="01_mi_historia.html">Historia</a></li>
+    
+            <li id="mi_formacion"><a href="02_mi_formacion.html">Formación</a></li>
+  
+            <li id="mi_obra"><a href="03_mi_obra.html">Obra</a></li>
 
         </ul>
 
@@ -68,52 +76,65 @@
 
 </nav>
 
-<main id="mi_formacion_1">
+<h2 id="mi_formacion_titulo">Mi formación cómo ser humano</h2>
 
-    <h2 id="mi_formacion_titulo">Mi formación cómo ser humano</h2>
+<main id="mi_formacion_1" class="row article">
 
-    <section class="lcol-5">
-
-
-<p>Ya vuelto a Tres Arroyos, viví en varios lugares, fuí a varios colegios, cambié de círculo varias veces
-
-Me finalmente viviendo en el Barrio Solidaridad, y cursando en la Escuela Agropecuaria de Tres Arroyos (E.A.T.A), donde hice la mayor parte de mi ciclo superior
-
-Pero nuevamente, por cuestiones de la vida, mi destino se trunco por años...
-    
-Donde me dediqué a trabajar, teniendo diversas experiencias, cómo leñero, mozo, vendedor, y claro, empleos dentro de la construcción</p>
-
-    </section>
-
-    <aside class="lcol-10">
+    <aside class="lcol-12">
 
         <img 
     src="https://bichosdecampo.com/wp-content/uploads/2021/02/EATA.jpg"
-    width="fit-content"
-    height="255.5px"
     alt="Escuela Agropecuaria de Tres Arroyos"
     >
     
         <p>Escuela Agropecuaria de Tres Arroyos (E.A.T.A.)</p>
     
         </aside>
-    
-
-  </main>
-
-
-  <main id="mi_formacion_2">
 
     <section class="lcol-12">
 
-        <p>En el transcurso de los años, he hecho cursos relacionados a construcción, cómo soldador y albañil... termine finalmente el Ciclo Superior en la E.E.T.N. 1, donde recibí el bachiller con Orientación Tecnológica y posteriormente estudié Maestro Mayor de Obras, ganando el 2° premio con mi proyecto de investigación</p>
+<p>Ya vuelto a Tres Arroyos, viví en varios lugares, fuí a varios colegios, cambié de círculo varias veces finalmente me quedé viviendo en el Barrio Solidaridad, y cursando en la Escuela Agropecuaria de Tres Arroyos (E.A.T.A), donde hice la mayor parte de mi ciclo superior</p>
 
-        <p class="row">Si te interesa saber más... hechale un vistazo a mis <a id="titulaciones" href="02.1_titulos.html">titulos</a></p> 
+<p>Pero nuevamente, por cuestiones de la vida, mi destino se trunco por años... Donde me dediqué a trabajar, teniendo diversas experiencias, cómo leñero, mozo, vendedor, y claro, empleos dentro de la construcción</p>
+
+    </section>
+    
+</main>
+
+
+  <main id="mi_formacion_2" class="row article">
+
+
+        <aside class="lcol-12">
+
+            <img 
+        src="https://elperiodistadetresarroyos.com/wp-content/uploads/2014/07/enet-800x531.jpg"
+        alt="Escuela Educación Técnica N°1"
+        >
+        
+            <p>Escuela de Educación Técnica de Tres Arroyos (E.E.T.N.°1)</p>
+        
+        </aside>
+
+    <section class="lcol-12">
+
+        <p>En el transcurso de los años, he hecho cursos relacionados a construcción, cómo soldador y albañil... termine finalmente el Ciclo Superior en la E.E.T.N. 1, donde recibí el bachiller con Orientación Tecnológica y posteriormente estudié Maestro Mayor de Obras, ganando el 2° premio con mi proyecto de investigación</p> 
 
     </section>
 
+</main>
 
-  </main>
+    <main id="mi_formacion_3" class="row">
+
+        <section class="lcol-12">
+        
+        <p>Si te interesa saber más... hechale un vistazo a mis <a id="titulaciones" href="02.1_titulos.html">titulos</a> </p> 
+
+        </section>
+
+    </main>
+
+
 
   <div id="volver_al_inicio" class="menu row">
     <ul>
@@ -157,8 +178,6 @@ Donde me dediqué a trabajar, teniendo diversas experiencias, cómo leñero, moz
 </div>
 
 </footer>
-
-<script src="function_secciones.js"></script>
 
 </body>
 </html>

@@ -1,9 +1,9 @@
 #titulaciones{
-    padding: 10px;
+    padding: 0px;
     }
     
-    #titulaciones:hover{
-      background-color: grey;
-      cursor: pointer;
+#titulaciones:hover{
+    background-color: grey;
+    cursor: pointer;
     }
     

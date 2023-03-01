@@ -22,6 +22,10 @@
     <link rel="stylesheet"
     href="grid.css"
     >
+
+    <link rel="stylesheet"
+    href="web_responsive.css"
+    >
     
     <link rel="icon" type="image/x-icon" href="icono CV.png">
 
@@ -30,18 +34,22 @@
 
 <body>
 
-    <header class="row" id="header">
+    <header class="lcol-12 row" id="header">
 
     <h1 id="titulo">
         &#60; Mi camino.../&#62;
     </h1>
 
     <p id="presentacion">
-        Hola!! Me llamo Oscar pero me gusta que me llamen Emanuel..Y mis amigos me dicen Ema!!.
+        Hola!! Me llamo Ema!!!
     </p>
 
     <p id="informacion">
-        Soy un estudiante de programación(Entre otras cosas)... y te invito a hechar un vistazo a mi vida!!
+        Soy Maestro Mayor de Obras, y estudiante de programación
+    </p>
+
+    <p id="inicio">
+        Y les presento mi hoja de vida :
     </p>
 
     </header>
@@ -52,11 +60,11 @@
         
         <ul>
 
-          <li id="mi_historia"><a href="01_mi_historia.html">Mi historia</a></li>
-
-          <li id="mi_formacion"><a href="02_mi_formacion.html">Mi formación</a></li>
-
-          <li id="mi_obra"><a href="03_mi_obra.html">Mi obra</a></li>
+            <li id="mi_historia"><a href="01_mi_historia.html">Historia</a></li>
+    
+            <li id="mi_formacion"><a href="02_mi_formacion.html">Formación</a></li>
+  
+            <li id="mi_obra"><a href="03_mi_obra.html">Obra</a></li>
 
         </ul>
 
@@ -65,65 +73,73 @@
 </nav>
 
 <!--A PARTIR DE ACÁ ES LA SECCIÓN SOBRE MI HISTORIA-->
+<h2 id="mi_historia_titulo">Breve resumen sobre mi infancia y pre-adolescencia</h2>
 
-<main id="mi_historia_1" class="row">
+<main id="mi_historia_1" class="row article">
 
-    <h2 id="mi_historia_titulo">Breve resumen sobre mi infancia y pre-adolescencia</h2>
 
-    <section class="lcol-9">
+    <aside class="lcol-12">
+
+        <img
+        src="https://radiowgarage.com.ar/wp-content/uploads/2022/06/Diseno-sin-titulo-73-1024x768.png"
+        alt="Iglesia de San Mayol"
+        >
+    
+        <p> Iglesia de San Mayol, donde fuí bautizado</p>
+    
+    
+    </aside>
+
+    <section class="lcol-12">
 
 <p>Soy Argentino de nacimiento y orgulloso, me crié en un hogar de clase trabajadora media baja.
 
-Soy el último de 4 hermanos, mi madre se llama Maria Rosa y mi padre Oscar Alfredo; Y mis primeros años los viví en un pueblito llamado San Mayol, cercano al campo donde ellos trabajaban
+Soy el último de 4 hermanos, mi madre se llama Maria Rosa y mi padre Oscar Alfredo. </p>
+
+<p>Mis primeros años los viví en un campo, al lado de un pueblito llamado San Mayol, donde tuve mis primeras experiencias sociales, llendo al pre-escolar(pre-jardín)
 
 Tuve una infancia bastante solitaria, al estar prácticamente aislado, y ya que además mis padres prácticamente trabajaban todo el día.</p>
 
     </section>
 
-    <aside class="lcol-12">
-
-    <img
-    src="https://radiowgarage.com.ar/wp-content/uploads/2022/06/Diseno-sin-titulo-73-1024x768.png"
-    width="fit-content"
-    height="128px"
-    alt="Iglesia de San Mayol"
-    >
-
-    <p> Iglesia de San Mayol, donde fuí bautizado</p>
-
-
-    </aside>
-
   </main>
 
-<main id="mi_historia_2" class="row">
+
+
+<main id="mi_historia_2" class="row article">
 
    <aside class="lcol-12">
 
    <img 
     src="https://upload.wikimedia.org/wikipedia/commons/3/37/Sede_Boca_Tres_Arroyos.jpg"
-    width="fit-content"
-    height="120px"
     alt="Cancha barrio Boca"
     >
 
-    <p> Cancha de C.A.B.J donde jugué al futbol</p>
+    <p> Cancha de C.A.B.J, en mi barrio</p>
 
     </aside>
 
-    <section class="lcol-9">
+    <section class="lcol-12">
 
 <p>Los primeros años de mi formación los cursé en Tres Arroyos, ya que mis padres con muchísimo esfuerzo pudieron conseguir el sueño de la casa propia
 
-Mis primeros años en la Gran Ciudad, fuí al jardín 914 de mi barrio... No tenía muchos amigos ya que mis orígenes fueron solitarios por mi crianza.
+Mis primeros años en la Gran Ciudad, fuí al jardín 914 de mi barrio.</p>
 
-En Tres Arroyos me crié en el barrio Boca, un barrio de trabajadores, viendo el esfuerzo de mi padre que año a año el dinero de sus vacaciones los invertía en construir su casa.
+<p>No tenía muchos amigos ya que mis orígenes fueron solitarios por mi crianza... En Tres Arroyos me crié en el barrio Boca, un barrio de trabajadores, viendo el esfuerzo de mi padre que año a año el dinero de sus vacaciones los invertía en construir su casa.</p>
 
-Si bien además de ayudar a mi padre en la construcción de nuestra vivienda y estudiar, también jugué al futbol, aunque muy poco... Ya que de niño prefería sentarme y pasar horas en la computadora, a ir con mis amigos a jugar</p>
+<p>También jugué al futbol, aunque muy poco... Ya que de niño prefería sentarme y pasar horas en la computadora, a ir con mis amigos a jugar</p>
 
     </section>
 
  </main>
+
+ <main class="article row">
+
+    
+
+ </main>
+
+
 
  <main id="mi_historia_3">
 
@@ -135,11 +151,6 @@ Si bien además de ayudar a mi padre en la construcción de nuestra vivienda y e
 
  </main>
  
-
-
-<!--A PARTIR DE ACÁ ES LA SECCIÓN SOBRE MI OBRA-->
-
-<!--A PARTIR DE ACÁ CONTINUA LA PÁGINA-->
 
 <div id="volver_al_inicio" class="menu row">
     <ul>
@@ -183,8 +194,6 @@ Si bien además de ayudar a mi padre en la construcción de nuestra vivienda y e
 </div>
 
 </footer>
-
-<script src="function_secciones.js"></script>
 
 </body>
 </html>

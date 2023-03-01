@@ -2,12 +2,17 @@
 
 * {
   color: greenyellow;
-  justify-content: left;
-  align-items: left;
+  justify-content: center;
 }
 
 html {
   font-family: "Lucida Sans", sans-serif;
+}
+
+main{
+  justify-content: left;
+  display: flex;
+  padding: 0px;
 }
 
 body{
@@ -16,18 +21,22 @@ body{
 }
 
 header {
-  background-size: 100% 100%;
   background-color: #000000;
+  width: fit-content;
 }
 
 nav{
   padding: 0px;
+  justify-content: center;
   width: 100%;
+  position: relative;
+  margin: auto;
 }
 
 aside{
   max-width: fit-content;
-  background-color: gray;
+  justify-content: center;
+  height: max-content;
 }
 
 section{
@@ -48,6 +57,7 @@ footer{
 
 /* Elementos */
   
+
 p{
   width: auto;
   height: auto;
@@ -61,8 +71,10 @@ h2{
 
 /* Clases, y subelementos */
 
-.index_header{
-  width: 100%;
+
+
+.article{
+  background: rgb(26, 26, 26);
 }
 
 /* Elementos por id */
